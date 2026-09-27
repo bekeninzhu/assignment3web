@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Study Space</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container">
+    <a class="navbar-brand" href="#home">Study Space</a>
+    <button class="navbar-toggler" type="button"
+      data-bs-toggle="collapse" data-bs-target="#menu"
+      aria-controls="menu" aria-expanded="false" aria-label="Toggle menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="menu">
+      <div class="navbar-nav ms-auto d-flex">
+        <a class="nav-link" href="#home">Home</a>
+        <a class="nav-link" href="#tips">Tips</a>
+        <a class="nav-link" href="#subjects">Subjects</a>
+        <a class="nav-link" href="#plan">Plan</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <section id="home" class="container py-5">
+    <div class="row align-items-center">
+      <div class="col-12 col-md-7 order-1 order-md-2 mb-3">
+        <h1>Welcome to Study Space</h1>
+        <p>A simple page about my university studies.</p>
+        <p class="d-none d-md-block">Small steps help me learn every day.</p>
+        <a class="btn btn-primary" href="#subjects">My subjects</a>
+      </div>
+      <div class="col-12 col-md-5 order-2 order-md-1">
+        <div class="bg-light rounded p-4">
+          <h2>Today's goal</h2>
+          <p>Finish my web page and practise for the defence.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="tips" class="tips">
+    <h2>Study tips</h2>
+    <div class="tips-grid">
+      <article class="tip">
+        <h3>Plan</h3>
+        <p>Write a short list of tasks for the day.</p>
+      </article>
+      <article class="tip">
+        <h3>Practise</h3>
+        <p>Try examples after reading the lecture.</p>
+      </article>
+      <article class="tip">
+        <h3>Review</h3>
+        <p>Check mistakes and repeat difficult topics.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="subjects" class="container py-5">
+    <h2 class="text-center mb-4">My subjects</h2>
+    <div class="row">
+      <div class="col-12 col-md-6 col-lg-4 mb-3">
+        <article class="card">
+          <div class="card-body">
+            <h3 class="card-title">Web Technologies</h3>
+            <p class="card-text">I learn HTML, CSS and responsive layouts.</p>
+          </div>
+        </article>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 mb-3">
+        <article class="card">
+          <div class="card-body">
+            <h3 class="card-title">Programming</h3>
+            <p class="card-text">I practise conditions, loops and methods.</p>
+          </div>
+        </article>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 mb-3">
+        <article class="card">
+          <div class="card-body">
+            <h3 class="card-title">Mathematics</h3>
+            <p class="card-text">I solve problems with sets and logic.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="plan" class="bg-light py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <h2>Weekly plan</h2>
+          <p>I study a different subject each day.</p>
+        </div>
+        <div class="col-12 col-md-6">
+          <ul>
+            <li>Monday: Web 1</li>
+            <li>Wednesday: IFP</li>
+            <li>Friday: DS</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
